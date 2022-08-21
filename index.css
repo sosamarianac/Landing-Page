@@ -1,0 +1,45 @@
+body {
+    background-color: fefae0;
+    @import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;500;600;700&family=Parisienne&display=swap');
+}
+
+.nav-bar {
+    margin: 0%;
+    padding: 0%;
+    background-color: d5bdaf;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 8px 8px 10px 4px rgba(0,0,0,0.5);
+    font-family: 'DynaPuff', cursive;
+    
+    }
+li {
+    list-style: none;
+    display: inline-block;
+    margin: 0px 2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    
+       
+}
+a {
+    text-decoration: none;
+    color: black;
+   
+}
+.logo {
+    width: 5rem;
+    height: 5rem;
+    background-color: 6d6875;
+    font-size: 2rem;
+    border-radius: 50%;
+    color: fefae0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;   
+}
